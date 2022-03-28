@@ -10,7 +10,7 @@ const Navbar = () => {
     {id: 5, name: 'Contact', link: '/contact'}
   ]
   return (
-    <nav className='bg-indigo-300 h-20 flex justify-between items-center px-20'>
+    <nav className='bg-indigo-300 h-20 flex flex-col md:flex-row justify-between items-center md:px-20'>
       <div className="logo">
         <h1 className='text-3xl font-bold font-mono'>Logo</h1>
       </div>
