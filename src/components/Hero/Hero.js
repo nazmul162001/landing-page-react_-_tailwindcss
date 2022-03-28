@@ -16,13 +16,13 @@ const Hero = () => {
             <button className='btn bg-orange-400 px-4 py-2 rounded text-2xl hover:bg-indigo-500 transition duration-75'>Download CV</button>
             <button className='btn bg-indigo-300 px-4 py-2 rounded ml-3 text-2xl hover:bg-orange-500'>Hire me</button>
             <div className="social-icon my-5 pl-10 flex">
-                <a className='p-3 mr-2 bg-blue-700 text-white text-xl rounded-full' href="/facebook"> 
+                <a className='p-1 mr-2 bg-blue-700 text-white text-xl rounded-full' href="/facebook"> 
                     <FaFacebook /> 
                 </a>
-                <a className='p-3 mr-2 bg-blue-400 text-white text-xl rounded-full' href="/facebook"> 
+                <a className='p-1 mr-2 bg-blue-400 text-white text-xl rounded-full' href="/facebook"> 
                     <FaTwitter /> 
                 </a>
-                <a className='p-3 bg-blue-500 text-white text-xl rounded-full' href="/facebook"> 
+                <a className='p-1 bg-blue-500 text-white text-xl rounded-full' href="/facebook"> 
                     <FaLinkedinIn /> 
                 </a>
             </div>
